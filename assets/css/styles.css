@@ -1,0 +1,134 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#main {
+    position: relative;
+}
+
+#section-container {
+    position: absolute;
+    width: 100%;
+    height: 824px;
+    background-color: #FFF;
+    background-image: url("/assets/img/Black-Friday.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    position: absolute;
+    left: 65%;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.inputBox {
+    position: absolute;
+    width: 380px;
+    height: 35px;
+    left: 69%;
+    color: #575757;
+    border-radius: 10px;
+}
+
+#name-title {
+    top: 355px;
+}
+
+#email-title {
+    top: 415px;
+}
+
+#inpName {
+    top: 345px;
+}
+
+#inpEmail {
+    top: 405px;
+}
+
+#btnSubmit {
+    position: absolute;
+    width: 380px;
+    height: 35px;
+    top: 465px;
+    left: 69%;
+    color: #575757;
+    background-color: #FFF;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#btnSubmit:hover {
+    background-color: #401252;
+    color: #FFF;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    width:100%;
+    height: 200px;
+    top: 824px;
+    background-color: #401252;
+}
+
+#logo-bottom {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 30px;
+    top: 35px;
+    color: #FFF;
+}
+
+#instagram {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 88%;
+    top: 45px;
+}
+
+#facebook {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 91%;
+    top: 45px;
+}
+
+#linkedin {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 94%;
+    top: 45px;
+}
+
+#bar-bottom {
+    position: absolute;
+    width: 93%;
+    height: 0px;
+    left: 50px;
+    top: 100px;
+    border: 1px solid #FFFFFF;
+}
+
+#copyright {
+    position: absolute;
+    left: 50px;
+    top: 136px;
+    font-size: 12px;
+    color: #FFF;
+}
