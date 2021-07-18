@@ -1,0 +1,192 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+}
+
+#main {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:link {
+    color: #FFF;
+}
+
+a:visited {
+    color: #FFF;
+  }
+
+a:hover {
+    color: #b4245f;
+    transition: 0.3s;
+}
+
+#nav-bar {
+    position: fixed;
+    width: 1440px;
+    height: 50px;
+    background-color: #401252;
+    opacity: 90%;
+    font-size: 16px;
+    color: #FFF;
+    z-index: 5;
+}
+
+#logo-top {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 67px;
+    top: 0px;
+    opacity: 90%;
+}
+
+#home {
+    position: absolute;
+    left: 564px;
+    top: 18px;
+}
+
+#home:hover {
+    cursor: pointer;
+}
+
+#popular-products {
+    position: absolute;
+    left: 658px;
+    top: 19px;
+}
+
+#popular-products:hover {
+    cursor: pointer;
+}
+
+#black-friday {
+    position: absolute;
+    left: 832px;
+    top: 19px;
+}
+
+#black-friday:hover {
+    cursor: pointer;
+}
+
+#cart {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1316px;
+    top: 13px;
+}
+
+#cart:hover {
+    cursor: pointer;
+}
+
+#cart {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1316px;
+    top: 13px;
+}
+
+#cart:hover {
+    cursor: pointer;
+}
+
+#cart-container {
+    position: absolute;
+    width: 1440px;
+    height: 774px;
+    top: 50px;
+}
+
+#empty-cart {
+    position: absolute;
+    width: 256px;
+    height: 256px;
+    left: 592px;
+    top: 256px;
+}
+
+#cart-title {
+    position: absolute;
+    width: 321px;
+    height: 42px;
+    left: 600px;
+    top: 512px;
+    color: #682383;
+}
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 200px;
+    top: 824px;
+    background-color: #401252;
+    opacity: 90%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+#logo-bottom {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 50px;
+    top: 35px;
+    color: #FFF;
+}
+
+#instagram {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 1254px;
+    top: 45px;
+}
+
+#facebook {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 1306px;
+    top: 45px;
+}
+
+#linkedin {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 1358px;
+    top: 45px;
+}
+
+#bar-bottom {
+    position: absolute;
+    width: 1340px;
+    height: 0px;
+    left: 50px;
+    top: 100px;
+    border: 1px solid #FFFFFF;
+}
+
+#copyright {
+    position: absolute;
+    left: 50px;
+    top: 136px;
+    font-size: 12px;
+    color: #FFF;
+}

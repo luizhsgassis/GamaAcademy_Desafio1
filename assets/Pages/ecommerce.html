@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>Galaxy Shoes | Home</title>
+
+        <meta charset="utf-8">
+        <meta name="author" content="Luiz Assis">
+        <meta name="description" content="Site de vendas de tênis">
+        <meta name="keywords" content="Tênis, esporte">
+
+        <link rel="stylesheet" href="/assets/css/ecommerce.css">
+        <link rel="shortcut icon" href="/assets/img/GalaxyShoes-fav.png" type="image/x-icon">        
+        
+    </head>
+    <body>
+
+        <div id="main">
+
+            <div id="nav-bar">
+
+                <a href="/assets/pages/ecommerce.html">
+                    <img id="logo-top" src="/assets/img/GalaxyShoes-logo.png" alt="galaxy-shoes-logo">
+                </a>
+
+                <a onclick="scrollHome()">
+                <p id="home">Home</p>
+                </a>
+
+                <a onclick="scrollPopular()">
+                <p id="popular-products">Popular Products</p>
+                </a>
+
+                <a onclick="scrollBlack()">
+                <p id="black-friday">Black Friday</p>
+                </a>
+
+                <a href="/assets/pages/cart.html">
+                    <img id="cart" src="/assets/img/shopping-cart(24px).png" alt="carrinho-de-compras">
+                </a>
+
+            </div>
+
+            <header id="header">
+                <img id="banner-container" src="/assets/img/GalaxyShoes-banner.png" alt="galaxy-shoes-banner">
+            </header>
+
+            <section id="popular-container">
+
+                <h1 id="popular-title">Popular Products</h1>
+
+                <div class="card-container-popular">
+                    <div class="card" id="pegasus">
+                        <img class="shoes-img" src="/assets/img/Nikeairzoompegasus38-feminino.jpg" alt="nike-zoom-pegasus38">
+                        <h3 class="title">Nike Air Zoom Pegasus 38 -<br>Feminino</h3>
+                        <p class="class">Corrida</p>
+                        <p class="price">R$ 699,90</p>
+                    </div>
+
+                    <div class="card" id="nmd1">
+                        <p class="discount">-20%</p>
+                        <img class="shoes-img" src="/assets/img/Adidas-NMD-R1.jpg" alt="adidas-nmd-r1">
+                        <h3 class="title">Adidas NMD R1</h3>
+                        <p class="class">Casual/Caminhada</p>
+                        <p class="price-low">R$ 549,90</p>
+                        <p class="price-high">R$ 699,90</p>
+                    </div>
+
+                    <div class="card" id="jordan">
+                        <img class="shoes-img" src="/assets/img/air-jordan-chicago.jpg" alt="nike-air-jordan-chicago">
+                        <h3 class="title">Nike Air Jordan 1 Mid<br>Chicago</h3>
+                        <p class="class">Casual</p>
+                        <p class="price">R$ 1.089,99</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="black-container">
+
+                <h1 id="black-title">Black Friday</h1>
+
+                <div class="card-container-black">
+                    <div class="card" id="nmd2">
+                        <p class="discount">-20%</p>
+                        <img class="shoes-img" src="/assets/img/Adidas-NMD-R1.jpg" alt="adidas-nmd-r1">
+                        <h3 class="title">Adidas NMD R1</h3>
+                        <p class="class">Casual/Caminhada</p>
+                        <p class="price-low">R$ 549,90</p>
+                        <p class="price-high">R$ 699,90</p>
+                    </div>
+
+                    <div class="card" id="revolution">
+                        <p class="discount">-28%</p>
+                        <img class="shoes-img" src="/assets/img/revolution5-masculino.jpg" alt="nike-revolution5">
+                        <h3 class="title">Nike Revolution 5</h3>
+                        <p class="class">Corrida/Caminhada</p>
+                        <p class="price-low">R$ 249,90</p>
+                        <p class="price-high">R$ 349,90</p>
+                    </div>
+
+                    <div class="card" id="energy">
+                        <p class="discount">-57%</p>
+                        <img class="shoes-img" src="/assets/img/adidas-energy-falcon.jpeg" alt="adidas-energy-falcon">
+                        <h3 class="title">Adidas Energy Falcon</h3>
+                        <p class="class">Treino/Caminhada</p>
+                        <p class="price-low">R$ 169,90</p>
+                        <p class="price-high">R$ 399,90</p>
+                    </div>
+
+                    <div class="card" id="ultimashow">
+                        <p class="discount">-36%</p>
+                        <img class="shoes-img" src="/assets/img/adidas-ultimashow.jpg" alt="adidas-ultimashow">
+                        <h3 class="title">Adidas Ultimashow</h3>
+                        <p class="class">Corrida/Caminhada</p>
+                        <p class="price-low">R$ 189,90</p>
+                        <p class="price-high">R$ 299,90</p>
+                    </div>
+
+                    <div class="card" id="flyer">
+                        <p class="discount">-20%</p>
+                        <img class="shoes-img" src="/assets/img/puma-flyer-runner.jpg" alt="puma-flyer-runner">
+                        <h3 class="title">Puma Flyer Runner</h3>
+                        <p class="class">Corrida</p>
+                        <p class="price-low">R$ 199,90</p>
+                        <p class="price-high">R$ 249,90</p>
+                    </div>
+                    
+                    <div class="card" id="vtrack">
+                        <p class="discount">-23%</p>
+                        <img class="shoes-img" src="/assets/img/tenis-fila-v-track.jpg" alt="fila-vtrack">
+                        <h3 class="title">Fila V.Track 2.0</h3>
+                        <p class="class">Casual</p>
+                        <p class="price-low">R$ 189,99</p>
+                        <p class="price-high">R$ 249,90</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="brands-container">
+                <h1>Top Brands</h1>
+
+                <div id="brand-cards">
+
+                    <div><img id="adidas" class="brand-card" src="/assets/img/adidas_logo.png" alt="adidas-logo"></div>
+                    <div><img id="nike" class="brand-card" src="/assets/img/nike_logo.png" alt="nike-logo"></div>
+                    <div><img id="puma" class="brand-card" src="/assets/img/puma_logo.png" alt="puma-logo"></div>
+                    <div><img id="fila" class="brand-card" src="/assets/img/fila_logo.png" alt="fila-logo"></div>
+
+                </div>
+            </section>
+
+            <footer id="footer">
+                <img id="logo-bottom" src="/assets/img/GalaxyShoes-logo.png" alt="galaxy-shoes-logo">
+
+                <div><img id="instagram" src="/assets/img/instagram-logo.png" alt="instagram-logo"></div>
+                <div><img id="facebook" src="/assets/img/facebook-logo.png" alt="facebook-logo"></div>
+                <div><img id="linkedin" src="/assets/img/linkedin-logo.png" alt="linkedin-logo"></div>
+
+                <div id="bar-bottom"></div>
+
+                <p id="copyright">© 2021 created by Luiz Assis</p>
+
+            </footer>
+            
+        </div>
+        
+        <script src="/assets/js/script.js"></script>
+    </body>
+</html>
